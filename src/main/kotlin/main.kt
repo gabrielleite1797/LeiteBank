@@ -1,8 +1,5 @@
-fun main(args: Array<String>) {
-    println("Bem vindo ao LeiteBank")
-    //testaFuncionarios()
-
-    testaContasDifirentes()
+fun main() {
+    testaAutenticacao()
 
 }
 
