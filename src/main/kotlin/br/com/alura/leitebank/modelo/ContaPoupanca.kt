@@ -1,5 +1,9 @@
+package br.com.alura.leitebank.modelo
+
+import br.com.alura.leitebank.modelo.Conta
+
 class ContaPoupanca(
-    titular: String,
+    titular: Cliente,
     numero: Int
 ) : Conta(
     titular = titular,

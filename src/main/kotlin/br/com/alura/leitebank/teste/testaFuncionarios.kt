@@ -1,3 +1,10 @@
+package br.com.alura.leitebank.teste
+
+import br.com.alura.leitebank.modelo.Analista
+import br.com.alura.leitebank.modelo.CalculadoraBonificacao
+import br.com.alura.leitebank.modelo.Diretor
+import br.com.alura.leitebank.modelo.Gerente
+
 fun testaFuncionarios() {
     val alex = Analista(
         nome = "Alex",

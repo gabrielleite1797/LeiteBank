@@ -1,3 +1,7 @@
+package br.com.alura.leitebank.modelo
+
+import br.com.alura.leitebank.modelo.Funcionario
+
 class CalculadoraBonificacao {
 
     var total: Double = 0.0
@@ -6,10 +10,10 @@ class CalculadoraBonificacao {
         println("nome: ${funcionario.nome}")
         this.total += funcionario.bonificacao
     }
-//    fun registra(funcionario: Gerente){
+//    fun registra(funcionario: modelo.Gerente){
 //        this.total += funcionario.bonificacao
 //    }
-//    fun registra(funcionario: Diretor){
+//    fun registra(funcionario: modelo.Diretor){
 //        this.total += funcionario.bonificacao
 //    }
 }

@@ -1,3 +1,10 @@
+package br.com.alura.leitebank.teste
+
+import br.com.alura.leitebank.modelo.Cliente
+import br.com.alura.leitebank.modelo.Diretor
+import br.com.alura.leitebank.modelo.Gerente
+import br.com.alura.leitebank.modelo.SistemaInterno
+
 fun testaAutenticacao() {
     val gerente = Gerente(
         nome = "Alex",

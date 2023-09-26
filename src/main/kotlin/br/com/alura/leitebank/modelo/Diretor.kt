@@ -1,3 +1,8 @@
+package br.com.alura.leitebank.modelo
+
+import br.com.alura.leitebank.modelo.Autenticavel
+import br.com.alura.leitebank.modelo.FuncionarioAdmin
+
 class Diretor(
     nome: String,
     cpf: String,
@@ -9,11 +14,11 @@ class Diretor(
     cpf = cpf,
     salario = salario,
     senha = senha
-), Autenticavel{
+), Autenticavel {
 
     override val bonificacao: Double
         get() {
-            println("Bonificacao Diretor")
+            println("Bonificacao modelo.Diretor")
             return salario + plr
         }
 }

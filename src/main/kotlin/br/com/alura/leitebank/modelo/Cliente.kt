@@ -1,8 +1,12 @@
+package br.com.alura.leitebank.modelo
+
+import br.com.alura.leitebank.modelo.Autenticavel
+
 class Cliente(
-    val nome: String,
+    var nome: String,
     val cpf: String,
     private val senha: Int
-): Autenticavel{
+): Autenticavel {
     override fun autentica(senha: Int): Boolean {
         if (this.senha == senha){
             return true

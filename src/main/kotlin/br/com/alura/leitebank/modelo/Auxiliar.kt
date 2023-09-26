@@ -1,3 +1,7 @@
+package br.com.alura.leitebank.modelo
+
+import br.com.alura.leitebank.modelo.Funcionario
+
 class Auxiliar(
     nome: String,
     cpf: String,

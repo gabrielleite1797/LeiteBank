@@ -1,3 +1,5 @@
+package br.com.alura.leitebank.modelo
+
 class Analista(
     nome: String,
     cpf: String,
@@ -10,7 +12,7 @@ class Analista(
 
     override val bonificacao: Double
         get() {
-            println("Bonificacao Analista")
+            println("Bonificacao modelo.Analista")
             return salario * 0.1
         }
 }
